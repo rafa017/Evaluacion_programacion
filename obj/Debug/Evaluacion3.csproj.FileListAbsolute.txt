@@ -1,0 +1,7 @@
+c:\users\rafita\source\repos\Evaluacion3\Evaluacion3\bin\Debug\Evaluacion3.exe.config
+c:\users\rafita\source\repos\Evaluacion3\Evaluacion3\bin\Debug\Evaluacion3.exe
+c:\users\rafita\source\repos\Evaluacion3\Evaluacion3\bin\Debug\Evaluacion3.pdb
+c:\users\rafita\source\repos\Evaluacion3\Evaluacion3\obj\Debug\Evaluacion3.csprojAssemblyReference.cache
+c:\users\rafita\source\repos\Evaluacion3\Evaluacion3\obj\Debug\Evaluacion3.csproj.CoreCompileInputs.cache
+c:\users\rafita\source\repos\Evaluacion3\Evaluacion3\obj\Debug\Evaluacion3.exe
+c:\users\rafita\source\repos\Evaluacion3\Evaluacion3\obj\Debug\Evaluacion3.pdb
