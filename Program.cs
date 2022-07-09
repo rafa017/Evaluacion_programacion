@@ -56,13 +56,71 @@ namespace Evaluacion3
 
 
             Console.WriteLine("APERTURA");
-            for (int i = 0; i < APERTURA[i]; i++)
+            for (int i = 0; i < APERTURA.Length; i += 11)
             {
-                    if(APERTURA[i] > maximo)
-                    {
+                if (APERTURA[i] > maximo)
+                {
                     maximo = APERTURA[i];
                     Console.WriteLine(maximo);
-                    }
+                }
+            }
+            for (int i = 0; i < APERTURA.Length; i+=18)
+            {
+                if (APERTURA[i] < maximo)
+                {
+                    minimo = APERTURA[i];
+                    Console.WriteLine(minimo);
+                }
+            }
+
+            Console.WriteLine("-----------------------MAXIMO-------------------");
+
+            Console.WriteLine("MAXIMO");
+            for (int i = 0; i < MAXIMO.Length; i+=2)
+            {
+                if(MAXIMO[i] > maximo)
+                {
+                    maximo = MAXIMO[i];
+                    Console.WriteLine(maximo);
+                }
+            }
+            for (int i = 10; i < MAXIMO.Length; i+=11)
+            {
+                if (MAXIMO[i] < maximo)
+                {
+                    minimo = MAXIMO[i];
+                    Console.WriteLine(minimo);
+                }
+            }
+
+            Console.WriteLine("-------------------MINIMO-----------------------");
+            Console.WriteLine("MINIMO");
+           
+            for (int i = 0; i < MINIMO.Length; i+=10)
+            {
+                if(MINIMO[i] < maximo)
+                {
+                    minimo = MINIMO[i];
+                    Console.WriteLine(minimo);
+                }
+            }
+
+            Console.WriteLine("-----------------CIERRE-------------------------");
+            Console.WriteLine("CIERRE");
+            for (int i = 0; i < CIERRE.Length; i++)
+            {
+                if(CIERRE[i] < maximo)
+                {
+                    maximo = CIERRE[i];
+                    Console.WriteLine(maximo);
+                }
+            }
+            for (int i = 0; i < CIERRE.Length; i++)
+            {
+                if(CIERRE[i] < maximo)
+                {
+                    minimo = CIERRE[i];
+                }
             }
             
 
